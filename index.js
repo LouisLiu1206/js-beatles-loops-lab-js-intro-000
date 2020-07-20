@@ -7,7 +7,7 @@ function theBeatlesPlay(musicians, instruments) {
 }
 
 ffunction johnLennonFacts(facts){
-  var facts = [
+  let facts = [
   "He was the last Beatle to learn to drive",
   "He was never a vegetarian",
   "He was a choir boy and boy scout",
@@ -18,6 +18,5 @@ ffunction johnLennonFacts(facts){
     facts[i] = facts[i] + "!!!"
     i++
   }
-
   return facts
 }
